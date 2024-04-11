@@ -1,3 +1,13 @@
+
+.skillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+}
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -26,6 +36,14 @@
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    .imageAboutPage {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border: 10px solid black;
+    }
 }
 
 /* skills section css */
@@ -50,7 +68,7 @@
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: rgba(0, 51, 102, 0.80);
+    background-color: rgba(0, 51, 102, 0.96);
 }
 .navbar{
     background-color: rgba(2, 12, 22, 0.2);
@@ -58,4 +76,32 @@
 .navbar-toggler-icon {
     color-scheme: whitesmoke;
     background-color: whitesmoke;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+.card {
+    height: 600px; /* Adjust the height value as needed */
+}
+.skillsText.card{
+    height: 300px;
+    cursor: pointer;
+}
+
+.card-img-top{
+    height: 300px;
+    object-fit: contain;
+}
+
+.btn{
+    .btn {
+        position: bottom;  
+    }
 }
